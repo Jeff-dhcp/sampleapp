@@ -7,14 +7,14 @@ elasticbeanstalk = boto3.client('elasticbeanstalk')
 
 # Configuration
 REPO_NAME = "sample-app"
-GITHUB_OWNER = capstone2
-GITHUB_REPO = setup_cicd_pipeline.py
+GITHUB_OWNER = "capstone2"
+GITHUB_REPO = "setup_cicd_pipeline.py"
 GITHUB_BRANCH = "main"
-GITHUB_TOKEN = ghp_abc12345EXAMPLE67890TOKENxyzABCDE12345
+GITHUB_TOKEN = "ghp_abc12345EXAMPLE67890TOKENxyzABCDE12345"
 
-BUCKET_NAME = bucket33
-APPLICATION_NAME = pythonapp
-ENVIRONMENT_NAME = prod
+BUCKET_NAME = "bucket33"
+APPLICATION_NAME = "pythonapp"
+ENVIRONMENT_NAME = "prod"
 
 # Step 1: Create Elastic Beanstalk Application and Environment
 def create_beanstalk_app():
